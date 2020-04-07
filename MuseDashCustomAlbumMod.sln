@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuseDashModManager", "MuseDashModManager\MuseDashModManager.csproj", "{BC37F97A-B56F-4879-8867-D54C29AD93B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuseDashCustomAlbumMod", "MuseDashModManager\MuseDashCustomAlbumMod.csproj", "{BC37F97A-B56F-4879-8867-D54C29AD93B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModHelper", "..\MuseDashModLoader\ModHelper\ModHelper.csproj", "{D652D574-C138-4F42-92BD-F42D3D48404A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BC37F97A-B56F-4879-8867-D54C29AD93B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC37F97A-B56F-4879-8867-D54C29AD93B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC37F97A-B56F-4879-8867-D54C29AD93B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D652D574-C138-4F42-92BD-F42D3D48404A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D652D574-C138-4F42-92BD-F42D3D48404A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D652D574-C138-4F42-92BD-F42D3D48404A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D652D574-C138-4F42-92BD-F42D3D48404A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
